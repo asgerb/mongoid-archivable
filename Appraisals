@@ -1,5 +1,6 @@
 appraise "mongoid-5" do
   gem "mongoid", "5.4.1"
+  gem "bigdecimal", "1.4.2"
 end
 
 appraise "mongoid-6" do
