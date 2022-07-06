@@ -1,9 +1,9 @@
 appraise "mongoid-5" do
-  gem "mongoid", "~> 5.0"
+  gem "mongoid", "5.4.1"
 end
 
 appraise "mongoid-6" do
-  gem "mongoid", "~> 6.0"
+  gem "mongoid", "6.4.8"
 end
 
 appraise "mongoid-7-0" do
