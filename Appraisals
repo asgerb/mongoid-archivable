@@ -33,15 +33,17 @@ end
 
 appraise "rails-5" do
   gem "rails", "~> 5.0"
+  gem "mongoid", "~> 7.0"
 end
 
 appraise "rails-6-0" do
   gem "rails", "~> 6.0.0"
+  gem "mongoid", "~> 7.0"
 end
 
 appraise "rails-6-1" do
   gem "rails", "~> 6.1.0"
-  gem "mongoid", "7.1.11"
+  gem "mongoid", "~> 7.0"
 end
 
 appraise "rails-7" do
