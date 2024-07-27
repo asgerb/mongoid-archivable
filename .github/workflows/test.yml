@@ -8,8 +8,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        gemfile: ["mongoid_5", "mongoid_6", "mongoid_7_0", "mongoid_7_1", "mongoid_7_2", "mongoid_7_3", "mongoid_7_4", "rails_5", "rails_6_0", "rails_6_1", "rails_7"]
-        ruby: ["2.7"]
+        gemfile: ["mongoid_5", "mongoid_6", "mongoid_7_0", "mongoid_7_1", "mongoid_7_2", "mongoid_7_3", "mongoid_7_4", "mongoid_8", "rails_5", "rails_6_0", "rails_6_1", "rails_7"]
+        ruby: ["3.1", "3.2", "3.3"]
     runs-on: ubuntu-latest
     services:
       mongodb:
