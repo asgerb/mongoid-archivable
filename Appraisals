@@ -31,6 +31,10 @@ appraise "mongoid-8" do
   gem "mongoid", "~> 8.0"
 end
 
+appraise "mongoid-9" do
+  gem "mongoid", "~> 9.0"
+end
+
 appraise "rails-5" do
   gem "rails", "~> 5.0"
   gem "mongoid", "~> 7.0"
